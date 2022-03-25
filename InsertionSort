@@ -1,0 +1,12 @@
+[22,27,16,2,18,6] 
+1-27, 22 ile karşılaştırılır büyük olduğundan ve arkasında sayı olmadığından yerinde kalır. 16 27 ile karşılaştırılır küçük olduğundan 22 ye bakılır,
+oda küçük olduğundan ve arkasında sayı olmadığından 1. indexe yerleştirilir diğerleri n+1 index kaydırılır. Dizinin sonuna kadar bu şekilde devam eder.
+2-O(n²)
+3-Avarege=O(n²) Worst=O(n²) Best=O(n)
+4-Avarage Case
+
+[7,3,5,8,2,9,4,15,6]
+1- 7<->3 [3,7,5,8,2,9,4,15,6]
+2- 7<->5 3<->5 [3,5,7,8,2,9,4,15,6]
+3- 7<->8 [3,5,7,8,2,9,4,15,6]
+4- 8<->2 7<->2 5<->2 3<->2 [2,3,5,7,8,9,4,15,6]
